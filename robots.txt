@@ -1,0 +1,6 @@
+# Next Reentry is NOT published yet. Nothing here has been through a safety
+# review sign-off and the contact address is still a placeholder, so no crawler
+# should be indexing it. Lift this deliberately, in one edit, on the day the
+# site actually goes live.
+User-agent: *
+Disallow: /
