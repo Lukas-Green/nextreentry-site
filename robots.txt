@@ -1,6 +1,14 @@
-# Next Reentry is NOT published yet. Nothing here has been through a safety
+# Better Neighbors is NOT published yet. Nothing here has been through a safety
 # review sign-off and the contact address is still a placeholder, so no crawler
 # should be indexing it. Lift this deliberately, in one edit, on the day the
 # site actually goes live.
+#
+# TWO MORE REASONS TO LEAVE THIS SHUT, added 2026-09-03 with the Better
+# Neighbors rebrand. The CNAME beside this file still points at nextreentry.org
+# while the site now says Better Neighbors throughout, and the contact address
+# is still robin@nextreentry.org because no Better Neighbors mailbox exists yet.
+# Letting a crawler index that pairing is how a dead address ends up in search
+# results. The domain move to creatingbetterneighbors.org and this file get
+# lifted in the same sitting, not before.
 User-agent: *
 Disallow: /

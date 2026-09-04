@@ -1,14 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 171 135">
+<!-- Better Neighbors mark, recoloured into the Next Reentry colour system on
+     2026-09-03 on Lukas's instruction: "Recolor using the current NR color
+     system... i made the mark, so I want the change." He drew the mark, so the
+     recolour is his to authorise and he gave it.
+
+     THE SHAPES ARE UNTOUCHED. Every path, the roof polyline and the rule are
+     byte-identical to the file he supplied. Only the two colour values moved.
+
+     WHY IT HAD TO MOVE: as drawn the mark is #ffe500 type inside a #00ffb2
+     outline. Measured against white those are 1.28 and 1.32. Nothing on this
+     site is allowed under 7:1, and a logo carrying the organisation's name is
+     read, not decorated.
+
+     MEASURED with clients/NextReentry/site-workshop/contrast-check.py, which
+     was first checked against a known failure so an empty pass could not look
+     like a good one.
+
+     Type    #e8ae3d   8.19 on ink #21201d,  7.12 on ink-2 #2c2b27
+     Outline #7fc98a   8.24 on ink #21201d,  7.17 on ink-2 #2c2b27
+
+     THIS IS THE DARK GROUND VERSION. Its twin is bn-logo-on-paper.svg.
+     A new ground is a new measurement. Do not move either file onto a ground
+     that is not in the table above without re-running the script.
+
+     NOTE FOR THE NEXT EDITOR: an XML comment may not contain two hyphens in a
+     row, so the CSS token names are written here without their leading pair.
+     A first draft of this file used them and every page showed a broken image
+     until it was rendered and looked at. -->
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 171 135" role="img" aria-label="Better Neighbors">
+  <title>Better Neighbors</title>
   <defs>
     <style>
       .cls-1 {
-        fill: #ffe500;
+        fill: #e8ae3d;
       }
 
       .cls-2 {
         fill: none;
-        stroke: #00ffb2;
+        stroke: #7fc98a;
         stroke-miterlimit: 10;
         stroke-width: 3px;
       }

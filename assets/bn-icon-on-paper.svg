@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Better Neighbors icon: the house from Lukas's own mark, on its own.
+
+     WHY IT EXISTS. The full mark is a wordmark, "Better Neighbors" set inside
+     the house. The header, the footer and the lesson badge each give the logo a
+     small square-ish slot next to the words "Better Neighbors" already set in
+     type. Dropping the wordmark in there would print the name twice and would
+     be unreadable at 24px besides. So the small slots get the house and the
+     full mark is used where there is room for it.
+
+     NOTHING WAS REDRAWN. This is the polyline from the supplied file, the same
+     five points, the same 3px stroke. The horizontal rule was left out because
+     it runs into the wordmark and has nothing to meet without it. The viewBox
+     is the polyline's own extent plus 2 units of padding so the stroke is not
+     clipped.
+
+     LUKAS: this is the one judgement call in the recolour that is not just a
+     colour value. Say the word and the full wordmark goes in the slots instead.
+
+     COLOUR is the light ground value from the recoloured mark, measured with
+     clients/NextReentry/site-workshop/contrast-check.py:
+       #26582d   7.87 on paper #faf8f4, 7.21 on paper-2 #f2eee6
+ -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="5.96 2.22 99.61 128.77" role="img" aria-label="Better Neighbors">
+  <title>Better Neighbors</title>
+  <polyline fill="none" stroke="#26582d" stroke-miterlimit="10" stroke-width="3"
+            points="103.57 51.22 55.77 4.22 7.96 51.22 7.96 128.99 103.57 128.99"/>
+</svg>
