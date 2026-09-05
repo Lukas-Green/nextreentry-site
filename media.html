@@ -5,6 +5,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Media, Better Neighbors</title>
 <meta name="description" content="Television, radio, podcasts, press and gallery coverage of the work behind Better Neighbors and of Art Inside Out. Every appearance in one place, linked to the outlet that ran it.">
+
+<!-- LINK PREVIEW, added 2026-09-04. Lukas pasted bneighbors.org into a message
+     and got the Art Inside Out logo. Nothing was wrong with the page: with no
+     share image declared, a scraper picks the largest raster it can find, and
+     the AIO logo was the only one. Every other mark on the site is an SVG,
+     which most scrapers skip.
+
+     share-card.png is 1200x630, the size every platform crops to, and it is
+     rendered from the real mark on the real ink ground rather than drawn twice.
+     Absolute URLs on purpose: a scraper does not resolve relative paths. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Better Neighbors">
+<meta property="og:title" content="Media, Better Neighbors">
+<meta property="og:description" content="Television, radio, podcasts, press and gallery coverage of the work.">
+<meta property="og:url" content="https://bneighbors.org/media.html">
+<meta property="og:image" content="https://bneighbors.org/assets/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Better Neighbors mark: a house outline with the name inside it.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Media, Better Neighbors">
+<meta name="twitter:description" content="Television, radio, podcasts, press and gallery coverage of the work.">
+<meta name="twitter:image" content="https://bneighbors.org/assets/share-card.png">
+<link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png">
+<link rel="apple-touch-icon" href="assets/favicon-512.png">
+<link rel="canonical" href="https://bneighbors.org/media.html">
 <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
