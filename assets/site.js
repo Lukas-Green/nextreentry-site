@@ -296,7 +296,7 @@
           'you like. We would rather tell you this plainly than show you a thank you page ' +
           'for a message that never left.';
 
-        window.location.href = 'mailto:robin@nextreentry.org'
+        window.location.href = 'mailto:Robin@creatingbetterneighbors.org'
           + '?subject=' + encodeURIComponent('Better Neighbors, a story')
           + '&body=' + encodeURIComponent(body);
       }
